@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1742289498544" clover="3.2.0">
+  <project timestamp="1742289498544" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1" elements="10" coveredelements="10" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+    <file name="index.ts" path="F:\CODE\yt-core\src\index.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="7" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="8" count="3" type="cond" truecount="1" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
