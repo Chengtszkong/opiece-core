@@ -1,10 +1,10 @@
 {
-  "name": "@chengtszkong/yt-core",
+  "name": "opiece-core",
   "private": false,
-  "version": "0.0.4",
+  "version": "0.0.1",
   "type": "module",
-  "main": "dist/yt-core.umd.js",
-  "module": "dist/yt-core.es.js",
+  "main": "dist/opiece-core.umd.js",
+  "module": "dist/opiece-core.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist/*"
