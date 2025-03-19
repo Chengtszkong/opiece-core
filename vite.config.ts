@@ -9,7 +9,7 @@ export default defineConfig({
         lib: {
             entry: 'src/index.ts', // the entry point of our library
             name: 'opiece-core', // the name of our library
-            fileName: (format) => `opiece-core.${format}.js`, // the name of our output file
+            fileName: 'opiece-core', // the name of our output file
         },
     },
     test: {

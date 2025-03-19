@@ -1,14 +1,19 @@
 {
     "name": "opiece-core",
     "private": false,
-    "version": "0.0.2",
+    "version": "0.0.10",
     "type": "module",
-    "main": "dist/opiece-core.umd.js",
-    "module": "dist/opiece-core.es.js",
+    "main": "dist/opiece-core.umd.cjs",
+    "module": "dist/opiece-core.js",
     "types": "dist/index.d.ts",
     "files": [
         "dist/*"
     ],
+    "exports": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/opiece-core.js",
+        "require": "./dist/opiece-core.umd.cjs"
+    },
     "scripts": {
         "build": "vite build",
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs",
