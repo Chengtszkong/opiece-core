@@ -1,2 +1,2 @@
-export * from './sum';
+export * from './formatNumberForUnit';
 export * from './date/index';
